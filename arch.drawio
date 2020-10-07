@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2020-10-07T19:54:47.938Z" agent="5.0 (Macintosh)" etag="gAjk-Irb3B0lTDeqy6bZ" version="13.6.2" type="github"><diagram id="PWtybto-T6b13MQPVDj4" name="Page-1">5VbJbtswEP0aoacGWrwevTVB0AJpHSDpkRXHElGKNCg6tvz1HVakJEoKuiA99SJxHodD8r03soNkU1xuFTnmnyQFHsQhvQTJNojjKF4u8GWQqkbmDsgUozapBfbsChYMLXpiFEovUUvJNTv6YCqFgFR7GFFKnv20g+T+rkeSwQDYp4QP0SdGdV6ji2nY4nfAstztHIV2piAu2QJlTqg8d6BkFyQbJaWuR8VlA9yQ53ip1314ZbY5mAKhf2fBcna9jb/cbenn+w1fXY9J+Hh4b6u8EH6yF36SiiKyK74BpUxkOP5IKlD2ErpyzCh5EhRM8TBI1uecadgfSWpmz+gFxHJdcIwiHNptQGm4vHr+qGEF7QSyAK0qTHELFpZI66TEaXBudYkclnc0mVmMWCtkTemWLRxYwv6AvHhA3oAkEHRlXIhRyklZstTnBe+uqmfD4c1kMnfAVzN7E05dvL1Yluuo6kYPoBheBwWqwfoIQAe27vGMfURUBvpX5hjq0eF7jG6HKeBEsxf/GGMa2B0eJMMDNnLHSEdX7smiJ2MpTyoFu6rr+36hue+bybxXqOZhUOinJZpr/71LpgOX3MtcvCsR44a1cmAa7BHt26TUSn6HjeTSyCykwMz1gXHegwhWFMZrqLVxxNp0HMOv2cpOFIxSs81ov/od/QYt23jBUj+dj7RsMuKh+F+17GwgxuNJCUSkefw3wkRLX5jZ2Lf0jYTBsP2Rq5uq/auQ7H4A</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-07T19:57:25.595Z" agent="5.0 (Macintosh)" etag="kste7-oq83RUEJEXVVhH" version="13.6.2" type="github">
+  <diagram id="PWtybto-T6b13MQPVDj4" name="Page-1">
+    <mxGraphModel dx="1298" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="96zG2RHDdQJClAzp30Tf-1" value="Word Embedding Layer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="290" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="96zG2RHDdQJClAzp30Tf-2" value="" style="endArrow=classic;html=1;entryX=0.447;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="96zG2RHDdQJClAzp30Tf-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="247" y="420" as="sourcePoint" />
+            <mxPoint x="270" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pFGiDuIdfAI9uqjbGSs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="96zG2RHDdQJClAzp30Tf-6" target="3pFGiDuIdfAI9uqjbGSs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96zG2RHDdQJClAzp30Tf-6" value="Turn on John&#39;s lights" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry y="630" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3pFGiDuIdfAI9uqjbGSs-1" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="710" as="sourcePoint" />
+            <mxPoint x="370" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3pFGiDuIdfAI9uqjbGSs-2" value="Turn on &lt;b&gt;John&#39;s lights&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="630" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3pFGiDuIdfAI9uqjbGSs-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3pFGiDuIdfAI9uqjbGSs-3" target="3pFGiDuIdfAI9uqjbGSs-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3pFGiDuIdfAI9uqjbGSs-3" value="NER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3pFGiDuIdfAI9uqjbGSs-8" value="John&#39;s lights" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3pFGiDuIdfAI9uqjbGSs-9" value="Turn on John&#39;s lights" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="630" width="210" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
