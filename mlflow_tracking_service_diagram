@@ -1,23 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T22:18:50.139Z" agent="5.0 (Macintosh)" etag="ntCLf7IO_GlH3p_V0tQ1" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-23T22:25:47.146Z" agent="5.0 (Macintosh)" etag="fHUYq-KHMakwE3KRZ3KF" version="14.8.0" type="github">
   <diagram id="D8W-nrz6H00mTc9mZUv0" name="Page-1">
     <mxGraphModel dx="1298" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mjfXAbknfklZcULUtB4y-1" value="MLFlow Remote Tracking Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="410" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="mjfXAbknfklZcULUtB4y-4" value="log_param" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="mjfXAbknfklZcULUtB4y-2" target="mjfXAbknfklZcULUtB4y-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="mjfXAbknfklZcULUtB4y-4" value="log_param" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="mjfXAbknfklZcULUtB4y-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="455" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mjfXAbknfklZcULUtB4y-2" value="Prediction/Training Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="410" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mjfXAbknfklZcULUtB4y-3" value="log_metric" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="mjfXAbknfklZcULUtB4y-2" target="mjfXAbknfklZcULUtB4y-1">
+        <mxCell id="mjfXAbknfklZcULUtB4y-3" value="log_metric" style="endArrow=classic;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="mjfXAbknfklZcULUtB4y-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="430" as="sourcePoint" />
-            <mxPoint x="450" y="380" as="targetPoint" />
+            <mxPoint x="460" y="425" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mjfXAbknfklZcULUtB4y-5" value="MLFlow Remote Tracking Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
