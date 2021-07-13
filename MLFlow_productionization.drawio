@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T18:59:41.173Z" agent="5.0 (Macintosh)" etag="t6_6ydGV8vPF8oi5ipRH" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T19:00:16.816Z" agent="5.0 (Macintosh)" etag="c4EQve-A-GsZupV-AnN5" version="14.8.0" type="github">
   <diagram id="kwli_J9a7rgydqIchn1m" name="Page-1">
     <mxGraphModel dx="1298" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -24,6 +24,15 @@
         </mxCell>
         <mxCell id="FE_WxTFNWg0BCNk1WLTa-8" value="mlflow_tracking:5123/POST" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="280" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FE_WxTFNWg0BCNk1WLTa-9" value="" style="endArrow=classic;html=1;entryX=0.315;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="FE_WxTFNWg0BCNk1WLTa-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="670" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FE_WxTFNWg0BCNk1WLTa-10" value="&lt;div&gt;localhost:5000/POST&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="670" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
